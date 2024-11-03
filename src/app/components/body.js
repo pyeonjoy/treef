@@ -2,7 +2,7 @@ import { useTranslation } from "next-i18next";
 import { useEffect, useState, useRef } from "react";
 import axios from "axios";
 
-const todoUrl = "http://localhost:4000/api/todo";
+const todoUrl = "http://43.203.126.244:4000/api/todo";
 
 const images = [
     "/o1.png",
