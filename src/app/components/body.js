@@ -82,11 +82,9 @@ export default function Body() {
                     <div className="flex-1 overflow-y-auto p-4">
                         {todoList.map((todo) => (
                             <div key={todo.id} className="flex flex-col">
-                                {/* <div className="chat chat-end">
-                                    {/* TODO: 여기서 todo 항목을 표시
+                                <div className="chat chat-end">
                                     <div>{todo.text}</div>
                                 </div> 
-                                */}
                             </div>
                         ))}
                         <div ref={endOfListRef} />
