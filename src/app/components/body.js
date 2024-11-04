@@ -90,7 +90,6 @@ export default function Body() {
                         {todoList.map((todo) => (
                             <div key={todo.id} className="flex flex-col">
                                 <div className="chat chat-end">
-                                    <div>{todo.text}</div>
                                 </div> 
                             </div>
                         ))}
